@@ -1,16 +1,24 @@
 import React from 'react'
-import Navbar from './components/Navbar'
-import Homepage from './components/Homepage'
-import Footer from './components/Footer'
-
+import Navbar from './components/Navbar/Navbar'
+import Herosection from './components/Herosection/Herosection'
+import ProductSection from './components/ProductSection/ProductSection'
+import AboutSection from './components/AboutSection/AboutSection'
+import PartnersSection from './components/PartnersSection/PartnersSection';
+import Footer from './components/Footer/Footer';
 
 const App = () => {
   return (
     <>
+   
       <Navbar/>
-      <Homepage/>
+      <Herosection/>
+      <ProductSection/>
+      
+      <AboutSection/>
+      <PartnersSection />
       <Footer/>
-      </>
+      
+    </>
   )
 }
 
